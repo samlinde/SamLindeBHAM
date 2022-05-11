@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+
+body{
+  max-width: 100%;
+  font-family: 'Merriweather', serif;
+  background-color: #3E3939;
+  margin: 0;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.hero{
+  color: #CCCCCC;
+  text-align: center;
+  width: 100%;
+  place-items: center center;
+  background-image: linear-gradient(rgba(12, 11, 11, .4), rgba(12, 11, 11, .4)), url('./webpic3.jpg');
+  min-height: 150vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+
+}
+
+.hero h1{
+  font-size: 32px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  padding-top: 350px;
+}
+.hero h2{
+  font-size: 24px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+.heropic{
+padding-bottom: 40px;
+width: 100%;
+background-size: cover;
+min-height: 100vh;
+}
+.bio{
+  color: #CCCCCC;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  place-items: center center;
+}
+.bio h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.bio h2{
+  padding-top: 25px;
+  font-size: 15px;
+  padding-left: 45px;
+  line-height: 30px;
+}
+.biopic{
+  width: 90%;
+  /* padding-left: 50px; */
+
+}
+
+.services{
+  color: #CCCCCC;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  place-items: center center;
+}
+
+.services h1{
+  font-size: 30px;
+  text-align: center;
+}
+.services h2{
+  font-size: 15px;
+  padding-left: 45px;
+  line-height: 30px;
+  padding-top: 25px;
+}
+
+.servicepic {
+  width: 90%;
+}
+.signup a {
+  color: #CCCCCC;
+  font-size: 18px;
+  text-align: center;
+}
+
+.questions{
+  color: #CCCCCC;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 5px;
+  padding-top: 30px;
+  place-items: center center;
+}
+
+.questions h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.questions h2{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+.finalpic{
+  width: 90%;
+  padding-bottom: 30px;
+}
